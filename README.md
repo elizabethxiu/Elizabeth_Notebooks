@@ -5,13 +5,15 @@ A Jupyter notebook-based pipeline for analyzing multiplexed CyCIF tissue imaging
 
 ## 📒 What is hosted here?
 
-`Elizabeth_step1_NoPC_scimap_processing.ipynb` | Gate markers, phenotype cells, draw ROIs 
+`01_SCIMAP_sample_processing.ipynb` | Gate markers, phenotype cells, draw ROIs 
 
-`more visualization.ipynb` | Spatial analysis figures
+`02_SCIMAP_immune_density.ipynb` | Compute immune cell densities per ROI
 
-`Elizabeth_step2_nopc_immunedensity.ipynb` | Compute immune cell densities per ROI 
+`03_SCIMAP_immune_plots.ipynb` | Generate density boxplots across genotypes
 
-`Elizabeth_step3_nopc_immune_plots.ipynb` | Generate density boxplots across genotypes 
+`04_SCIMAP_within_sample_visuals.ipynb` | Single-sample spatial analysis figures
+
+`05_SCIMAP_across_sample_visuals.ipynb` | Multi-sample spatial analysis figures 
 
 ## ✍️ Notes
 - All file paths are set in the configuration cell at the top of each notebook
